@@ -5,7 +5,6 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 set(
 	template_srcs
 	fix.cpp
-	sample_library.h
 )
 add_library(template_project STATIC ${template_srcs}) 
 set_target_properties(template_project PROPERTIES LINKER_LANGUAGE CXX) 
